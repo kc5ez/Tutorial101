@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pilates</title>
+    </head>
+    <body>
+        <div class="content">
+	  <h4>Pilates workouts: </h4>
+            <% if (id != undefined) {%>
+            <iframe width="640" height="360" src="<%= id%>" frameborder="0" allowfullscreen></iframe>
+	    
+            <% } else { %>
+	    <p>Next on my todo: </p>
+            <iframe width="640" height="360" src="//www.youtube.com/embed/qOdEVngUs-c" frameborder="0" allowfullscreen></iframe>
+	    <p>My first pilates:</p>
+<iframe width="640" height="360" src="//www.youtube.com/embed/tUVvec3z-mo?list=PLSCcAGyv98ieqMkQH_q5T_gazNVxEcZew" frameborder="0" allowfullscreen></iframe>
+<p>Favorite pilates video:</p>
+ <iframe width="640" height="360" src="//www.youtube.com/embed/xDpB8pWEjhk" frameborder="0" allowfullscreen></iframe>
+<p>When I have alot of time: </p>
+<iframe width="640" height="360" src="//www.youtube.com/embed/lMnY5jAlp6Y" frameborder="0" allowfullscreen></iframe>
+
+            <% } %>
+        </div>
+    </body>
+
+    
+</html>
