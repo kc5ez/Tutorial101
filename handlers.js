@@ -4,7 +4,7 @@ exports.index = function(req, res){
 
 exports.pilates = function(req, res){
 	var video_id = req.query.v;
-	res.render('hello', {id:video_id}, function(err, html){
+	res.render('pilates', {id:video_id}, function(err, html){
 		res.send(html);	
 	})
 }
