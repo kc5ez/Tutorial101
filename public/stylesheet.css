@@ -1,8 +1,9 @@
 p{
     font-family: Calibri;
     margin: auto;
-    padding: 10px;
-    text-align: center;
+    text-align: left;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 iframe{
